@@ -62,9 +62,9 @@ pattern = b'\x00\x66\x01\x00\x71'
 # Usage example
 file_path = './file.pcapng'
 offsets = {
-    'p1_c': 63,
+    'p1_c': 67,
     'p2_c': 66,
-    'p2_f': 62,
-    'p1_f': 62
+    'p2_f': 64,
+    'p1_f': 66
 }
 analyze_pcapng(file_path, pattern, offsets)
